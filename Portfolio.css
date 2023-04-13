@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.header{
+  height: 100vh;
+  background-color: #081b29;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: #fff;
+    background-color: transparent;
+}
+.logo{
+    font-size: 22px;
+    color: #5dcbf7;
+    font-weight: bold;
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    -webkit-animation: colorchange 18s infinite alternate;
+  }
+  @-webkit-keyframes colorchange {
+    0% {
+      color: #6a6ae1;
+    }
+    10% {
+      color: #8e44ad;
+    }
+    20% {
+      color: #1abc9c;
+    }
+    30% {
+      color: #d77838;
+    }
+    40% {
+      color: #36b5c1;
+    }
+    50% {
+      color: #d6d25a;
+    }
+    60% {
+      color: #88cf55;
+    }
+    70% {
+      color: #732fb7;
+    }
+    80% {
+      color: #f1c40f;
+    }
+    90% {
+      color: #327ec1;
+    }
+    100% {
+      color: #f2556f;
+    }
+  }
+.header-cont a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+.header-cont a:hover{
+    color: #00abf0;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30vh;
+    color: #fff;
+}
+.home h1 span{
+    font-size: 35px;
+}
+.home h2{
+    font-size: 30px;
+    color: #1bbeffca;
+}
+.btn-box{
+    margin: 12px;
+}
+.btn-box a{
+    background-color: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #081b29;
+    font-weight: 600;
+    padding: 5px;
+    margin: 20px 5px;
+}
+.btn-box a:nth-child(2){
+    background-color: transparent;
+    color: #00abf0;
+}
+.btn-box a:nth-child(2):hover{
+    background-color: #00abf0;
+    color: #081b29;
+}
+.btn-box a:nth-child(1):hover{
+    background-color: transparent;
+    color: #00abf0;
+}
+#about {
+  color: #fff;
+  background-color: #0d2231;
+  display: flex;
+}
+.about-left{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.about-right{
+  width: 50%;
+}
+#about p{
+  padding: 80px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+#about img{
+  height: 300px;
+  width: 400px;
+  margin: 80px;
+  margin-left: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#education{
+  background-color: #081b29;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+#education p{
+  margin: 0px 80px ;
+}
+.education-right{
+  display: flex;
+  align-items: center;
+}
+#education img{
+  height: 300px;
+  width: 400px;
+  margin: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Contact{
+  position: relative;
+  background-color: #0d2231;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+#Contact h1{
+  margin: 30px;
+  font-size: 35px;
+}
+#Contact form{
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+}
+#Contact form input{
+  margin: 10px;
+  padding: 7px;
+  width: 22rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+#Contact form textarea{
+  margin: 10px;
+  padding: 7px;
+  width: 22rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+#Contact form button{
+  margin: 10px;
+  padding: 7px;
+  width: 22rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #868686;
+}
+#Contact form button:hover{
+  opacity: 0.6;
+}
+.icon{
+  margin: 30px;
+}
+.icon a{
+  position: absolute;
+  margin: 10px;
+  padding: 15px;
+  background-color: #00abf0;
+  border-radius: 50%;
+}
+.icon a:nth-child(1){
+  bottom: 0;
+  left: 38%;
+}
+.icon a:nth-child(2){
+  bottom: 0;
+  left: 44%;
+}
+.icon a:nth-child(3){
+  bottom: 0;
+  left: 50%;
+}
+.icon a:nth-child(4){
+  bottom: 0;
+  left: 56%;
+}
+
